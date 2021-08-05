@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OneSignal</string>
+    <string name="app_name1">Binary_Convertion</string>
+    <string name="app_name2">StopWatch</string>
+    <string name="back">c</string>
+    <string name="zero">0</string>
+    <string name="power">^</string>
+    <string name="add">+</string>
+</resources>

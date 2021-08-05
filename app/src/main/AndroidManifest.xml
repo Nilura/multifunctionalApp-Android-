@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onesignal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cal"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/cal"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OneSignal">
+        <activity android:name=".multiply"></activity>
+        <activity android:name=".substraction" />
+        <activity android:name=".resultaddition" />
+        <activity android:name=".addition" />
+        <activity android:name=".matrixtranspose" />
+        <activity android:name=".matricsinterface" />
+        <activity android:name=".matrix" />
+        <activity android:name=".trigonometry" />
+        <activity android:name=".calculator" />
+        <activity android:name=".celsius" />
+        <activity android:name=".bmi" />
+        <activity android:name=".binary" />
+        <activity android:name=".stopwatch" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

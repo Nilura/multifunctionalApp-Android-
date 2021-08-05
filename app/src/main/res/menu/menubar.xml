@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="share"
+        android:id="@+id/share"
+        app:showAsAction="never"/>
+    <item android:title="StopWatch"
+        android:id="@+id/stop"
+        app:showAsAction="never"/>
+    <item android:title="Binary"
+        android:id="@+id/binary"
+        app:showAsAction="never"/>
+
+    <item android:title="Temperature"
+        android:id="@+id/cel"
+        app:showAsAction="never"/>
+    <item android:title="CAL"
+        android:id="@+id/cal1"
+        app:showAsAction="never"/>
+    <item android:title="Exit"
+        android:id="@+id/exit"
+        app:showAsAction="never"/>
+</menu>
